@@ -19,6 +19,10 @@
 
 <body>
 
+    <div id="particles"></div>
+
+  <canvas id="bgCanvas"></canvas>
+
     <!-- ================= NAVBAR ================= -->
 
     <header>
@@ -57,12 +61,15 @@
                 AEVUM
             </span>
 
-            <div class="orb-wrapper">
+<div class="orb-wrapper" id="orb">
 
-                <img src="assets/images/orb.png.png" alt="Orb">
+    <div class="orb-float">
 
-            </div>
+        <img src="assets/images/orb.png.png" alt="Orb">
 
+    </div>
+
+</div>
             <span class="title-bottom">
                 BIOSCIENCES
             </span>
@@ -84,6 +91,27 @@
         </a>
 
     </div>
+    <div class="hero-quote">
+
+    <p class="greek">
+
+        Ἡ σοφία ἄρχεται θαυμάζειν.
+
+    </p>
+
+    <p class="translation">
+
+        "Wisdom begins in wonder."
+
+    </p>
+
+    <span>
+
+        — Socrates
+
+    </span>
+
+</div>
 
     <div class="scroll">
 
@@ -101,6 +129,15 @@
     <!-- ================= THE CHALLENGE ================= -->
 
     <section id="challenge">
+     
+ <p class="mini-quote">
+
+    "Nature loves to hide."
+
+    <span>— Heraclitus</span>
+
+</p>
+
 
         <div class="section-heading">
 
@@ -122,53 +159,56 @@
 
             <article class="card">
 
-                <h3>🧬 Genetic Diseases</h3>
+                <h3> ◉ Genetic Diseases</h3>
 
-                <p>
+            <p>
 
-                    Correcting faulty genes to treat inherited disorders
-                    before they become life-threatening.
+    Millions of people worldwide live with inherited genetic disorders.
+    Advances in gene editing and precision medicine are helping scientists
+    develop treatments that target diseases at their source rather than
+    simply managing symptoms.
 
-                </p>
+</p>
+            </article>
+
+            <article class="card">
+
+                <h3> ✦ De-Extinction</h3>
+
+               <p>
+
+    Scientists are studying ancient DNA to better understand extinct
+    species and explore responsible ways to restore biodiversity while
+    supporting the conservation of endangered wildlife.
+
+</p>
+            </article>
+
+            <article class="card">
+
+                <h3> △ Regenerative Medicine</h3>
+
+               <p>
+
+    Stem cells, tissue engineering, and bioprinting are opening new
+    possibilities for repairing damaged tissues and developing future
+    treatments that regenerate rather than replace.
+
+</p>
 
             </article>
 
             <article class="card">
 
-                <h3>🦣 De-Extinction</h3>
+                <h3>◈ Ecosystem Restoration</h3>
 
-                <p>
+              <p>
 
-                    Restoring extinct species and rebuilding ecosystems
-                    through advanced genetics.
+    Biotechnology supports healthier ecosystems through conservation
+    genetics, sustainable agriculture, and innovative solutions that
+    protect biodiversity and the environment.
 
-                </p>
-
-            </article>
-
-            <article class="card">
-
-                <h3>🫀 Regenerative Medicine</h3>
-
-                <p>
-
-                    Repairing damaged organs and tissues using stem cells
-                    and tissue engineering.
-
-                </p>
-
-            </article>
-
-            <article class="card">
-
-                <h3>🌿 Ecosystem Restoration</h3>
-
-                <p>
-
-                    Using biotechnology to strengthen biodiversity and
-                    create sustainable ecosystems.
-
-                </p>
+</p>
 
             </article>
 
@@ -181,8 +221,17 @@
 
 
     <!-- ================= WHY IT MATTERS ================= -->
-
+  
     <section id="importance">
+
+        <p class="mini-quote">
+
+    "Wherever the art of medicine is loved,
+    there is also a love of humanity."
+
+    <span>— Hippocrates</span>
+
+</p>
 
         <div class="section-heading">
 
@@ -204,42 +253,54 @@
 
             <div class="info-box">
 
-                <h3>Human Health</h3>
+                <h3> ◈ Human Health</h3>
 
-                <p>
-                    Better treatments, earlier diagnosis,
-                    and improved quality of life.
-                </p>
+             <p>
+
+    Biotechnology enables earlier diagnosis, targeted treatments,
+    and personalized medicine, improving the quality of life for
+    millions of people worldwide.
+
+</p>
+            </div>
+
+            <div class="info-box">
+
+                <h3> △ Nature</h3>
+
+            <p>
+
+    Scientific innovation helps conserve endangered species,
+    restore ecosystems, and preserve biodiversity for
+    future generations.
+
+</p>
 
             </div>
 
             <div class="info-box">
 
-                <h3>Nature</h3>
+                <h3> ◉ Innovation</h3>
 
                 <p>
-                    Protecting biodiversity and restoring ecosystems.
-                </p>
 
+    By combining biology with engineering, artificial intelligence,
+    and data science, biotechnology accelerates discoveries across
+    medicine, agriculture, and environmental science.
+
+</p>
             </div>
 
             <div class="info-box">
 
-                <h3>Innovation</h3>
+                <h3> ✦ Future</h3>
+<p>
 
-                <p>
-                    Accelerating scientific discovery through modern biotechnology.
-                </p>
+    Responsible research today creates opportunities for healthier
+    communities, sustainable development, and life-changing
+    scientific breakthroughs.
 
-            </div>
-
-            <div class="info-box">
-
-                <h3>Future</h3>
-
-                <p>
-                    Creating sustainable solutions for future generations.
-                </p>
+</p>
 
             </div>
 
@@ -252,8 +313,26 @@
 
 
     <!-- ================= RESEARCH ================= -->
-
     <section id="research">
+
+      <div class="research-quote">
+
+    <p>
+
+        "The more you know,<br>
+
+        the more you realize you don't know."
+
+    </p>
+
+    <span>
+
+        — Aristotle
+
+    </span>
+
+</div>
+
 
         <div class="section-heading">
 
@@ -275,54 +354,240 @@
 
             <div class="research-card">
 
-                <h3>CRISPR Gene Editing</h3>
+    <h3> ◈ CRISPR Gene Editing</h3>
 
-            </div>
+    <p>
 
-            <div class="research-card">
+        CRISPR-Cas9 allows scientists to edit DNA with remarkable
+        precision, offering new possibilities for treating inherited
+        diseases and advancing genetic research.
 
-                <h3>Gene Therapy</h3>
+    </p>
 
-            </div>
-
-            <div class="research-card">
-
-                <h3>Conservation Genetics</h3>
-
-            </div>
+</div>
 
             <div class="research-card">
 
-                <h3>Stem Cell Research</h3>
+    <h3> △ Gene Therapy</h3>
 
-            </div>
+    <p>
 
-        </div>
+        Gene therapy replaces or repairs faulty genes inside cells,
+        providing long-term treatment options for diseases once
+        considered untreatable.
 
-    </section>
+    </p>
 
+</div>
 
+           <div class="research-card">
 
+    <h3> ⟡ Conservation Genetics</h3>
 
+    <p>
 
-    <!-- ================= PERSPECTIVE ================= -->
+        DNA analysis helps scientists monitor endangered species,
+        maintain genetic diversity, and develop more effective
+        conservation strategies.
 
-    <section id="perspective">
+    </p>
 
-        <div class="quote">
+</div>
+<div class="research-card">
 
-            <h2>
+    <h3> ⊚ Stem Cell Research</h3>
 
-                Biotechnology should exist not because we can advance it—
-                but because it can improve life, protect nature,
-                and create a healthier future.
+    <p>
 
-            </h2>
+        Stem cells can develop into many specialized cell types,
+        making them essential for regenerative medicine and future
+        organ replacement technologies.
 
-        </div>
+    </p>
+</div>
 
-    </section>
+</div>
+</section>
+    <!-- ================= TIMELINE ================= -->
 
+<section id="timeline">
+
+    <div class="section-heading">
+
+        <p class="section-tag">
+
+            BIOTECHNOLOGY TIMELINE
+
+        </p>
+
+        <h2>
+
+            Discoveries that shaped modern biotechnology.
+
+        </h2>
+
+    </div>
+
+    <div class="timeline">
+
+<div class="timeline-item">
+
+    <span>1865</span>
+
+    <h3>Mendel establishes the foundations of genetics.</h3>
+
+    <p>
+
+        Austrian scientist Gregor Mendel's pea plant experiments revealed
+        the fundamental laws of inheritance, laying the groundwork for
+        modern genetics and biotechnology.
+
+    </p>
+
+</div>
+
+      <div class="timeline-item">
+
+    <span>1953</span>
+
+    <h3>The structure of DNA is discovered.</h3>
+
+    <p>
+
+        James Watson and Francis Crick described the double-helix structure
+        of DNA, transforming our understanding of heredity and molecular
+        biology.
+
+    </p>
+
+</div>
+<div class="timeline-item">
+
+    <span>1973</span>
+
+    <h3>The birth of genetic engineering.</h3>
+
+    <p>
+
+        Scientists Herbert Boyer and Stanley Cohen developed recombinant DNA
+        technology, making it possible to combine DNA from different
+        organisms for the first time.
+
+    </p>
+
+</div>
+        <div class="timeline-item">
+
+    <span>1990</span>
+
+    <h3>The Human Genome Project begins.</h3>
+
+    <p>
+
+        An international scientific collaboration launched one of the most
+        ambitious biological projects in history—to map the complete human
+        genome.
+
+    </p>
+
+</div>
+
+       <div class="timeline-item">
+
+    <span>2003</span>
+
+    <h3>The human genome is completed.</h3>
+
+    <p>
+
+        After thirteen years of research, scientists successfully completed
+        the first comprehensive sequence of human DNA, opening the door to
+        personalized medicine.
+
+    </p>
+
+</div>
+
+       <div class="timeline-item">
+
+    <span>2012</span>
+
+    <h3>CRISPR changes biotechnology forever.</h3>
+
+    <p>
+
+        Jennifer Doudna and Emmanuelle Charpentier introduced CRISPR-Cas9,
+        providing scientists with a powerful and precise method for editing
+        genes.
+
+    </p>
+
+</div>
+     <div class="timeline-item">
+
+    <span>2023</span>
+
+    <h3>The first CRISPR therapy is approved.</h3>
+
+    <p>
+
+        Gene-editing treatments entered clinical medicine, marking a historic
+        milestone in the fight against inherited diseases such as sickle cell
+        disease.
+
+    </p>
+
+</div>
+
+<div class="timeline-item future">
+
+    <span>2050+</span>
+
+    <h3>The next breakthrough could begin today.</h3>
+
+    <p>
+
+        The future of biotechnology will be shaped by the curiosity,
+        responsibility, and innovation of the next generation of scientists.
+
+    </p>
+
+</div>
+</section>
+
+<!-- ================= PHILOSOPHY ================= -->
+
+<p class="reflection-tag">
+
+    A MOMENT OF REFLECTION
+
+</p>
+
+<section class="philosophy">
+
+    <div class="philosophy-box">
+
+        <h2>
+
+            ἓν οἶδα ὅτι οὐδὲν οἶδα.
+
+        </h2>
+
+        <p>
+
+            I know that I know nothing.
+
+        </p>
+
+        <span>
+
+            — Socrates
+
+        </span>
+
+    </div>
+
+</section>
 
 
 
@@ -330,6 +595,15 @@
     <!-- ================= FUTURE ================= -->
 
     <section id="future">
+
+      <p class="mini-quote">
+
+    "The best way to predict the future
+    is to invent it."
+
+    <span>— Alan Kay</span>
+
+</p>
 
         <div class="section-heading">
 
@@ -349,41 +623,98 @@
 
         <div class="future-grid">
 
-            <div class="future-card">
+    <div class="future-card">
 
-                Personalized Medicine
+        <h3> ◉ Personalized Medicine</h3>
 
-            </div>
+        <p>
+            Advances in genetics may allow treatments to be tailored to each
+            individual's DNA, improving effectiveness while minimizing side effects.
+        </p>
 
-            <div class="future-card">
+    </div>
 
-                Lab-Grown Organs
+    <div class="future-card">
 
-            </div>
+        <h3> ◈ Lab-Grown Organs</h3>
 
-            <div class="future-card">
+        <p>
+            Tissue engineering and bioprinting could one day produce transplantable
+            organs, reducing waiting lists and saving countless lives.
+        </p>
 
-                Climate-Resilient Crops
+    </div>
 
-            </div>
+    <div class="future-card">
 
-            <div class="future-card">
 
-                Restored Ecosystems
+        <h3> △ Climate-Resilient Crops</h3>
+        <p>
+            Gene editing may help create crops that withstand drought, disease,
+            and changing climates while strengthening global food security.
+        </p>
 
-            </div>
+    </div>
 
-        </div>
+    <div class="future-card">
+
+        <h3> ✦ Restored Ecosystems</h3>
+
+        <p>
+            Future biotechnology could help rebuild damaged habitats, restore
+            biodiversity, and protect endangered species through responsible innovation.
+        </p>
+
+    </div>
+
+</div>
+
 
     </section>
 
+    <div class="easter-egg">
 
+    N E R D . &nbsp; — &nbsp; R E E C E
+
+</div>
+
+    <!-- ================= wnding ================= -->
+
+<section id="perspective">
+
+    <div class="quote">
+
+        <h2>
+
+            The purpose of biotechnology
+            is not to redefine life—
+
+            <br><br>
+
+            but to understand it,
+            protect it,
+            and improve it responsibly.
+
+        </h2>
+
+    </div>
+
+</section>
 
 
 
     <!-- ================= FOOTER ================= -->
 
     <footer>
+<p class="mini-quote">
+
+    "Science is a way of thinking
+    much more than it is a body of knowledge."
+
+    <span>— Carl Sagan</span>
+
+</p>
+      
 
         <h2>
 
@@ -407,6 +738,6 @@
 
     <script src="script.js"></script>
 
-</body>
+
 
 </html>
